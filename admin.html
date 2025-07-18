@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Panel</title>
+</head>
+<body>
+  <h2>লাইসেন্স যুক্ত করুন</h2>
+  <form id="licenseForm">
+    <input type="text" id="licenseNumber" placeholder="লাইসেন্স নাম্বার" required><br>
+    <input type="text" id="ownerName" placeholder="মালিকের নাম" required><br>
+    <input type="text" id="fatherName" placeholder="পিতার নাম" required><br>
+    <input type="date" id="dob" placeholder="জন্ম তারিখ" required><br>
+    <input type="text" id="licenseType" placeholder="লাইসেন্স ধরন" required><br>
+    <input type="date" id="issueDate" placeholder="ইস্যু তারিখ" required><br>
+    <input type="date" id="expiryDate" placeholder="মেয়াদ শেষ" required><br>
+    <button type="submit">Add License</button>
+  </form>
+
+  <script type="module" src="admin.js"></script>
+</body>
+</html>
