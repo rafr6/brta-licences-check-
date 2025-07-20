@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BRTA Licence Verification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BRTA Licence Verification</h1>
+    <input type="text" id="licenceInput" placeholder="Enter Licence Number">
+    <button onclick="checkLicence()">Check Licence</button>
+    <div id="result" class="card hidden">
+      <p>🔗 Or scan QR to open directly:</p>
+      <img src="qr.png" alt="QR Code" class="qr-img" />
+      <img src="licence-photo.jpg" alt="Licence Photo" class="profile-photo" />
+      <ul id="detailsList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
